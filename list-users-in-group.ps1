@@ -1,3 +1,5 @@
+#Requires -Version 6
+#Requires -Modules ActiveDirectory
 $param1 = $args[0]
 $scriptname = $MyInvocation.MyCommand.name
 $psv = $PSVersionTable.PSversion

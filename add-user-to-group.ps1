@@ -1,3 +1,5 @@
+#Requires -Version 6
+#Requires -Modules ActiveDirectory
 $param1 = $args[0]
 $param2 = $args[1]
 $scriptname = $MyInvocation.MyCommand.name
