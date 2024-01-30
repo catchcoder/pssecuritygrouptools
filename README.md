@@ -9,9 +9,9 @@ Collection of Powershell scripts to manage users of an Active Directory security
 - remove-user-from-group.ps1
 - who-is.ps1
 
-## Get the latest Powershell and Active Directory Module
+## Install the latest Powershell and Active Directory Module
 
-- Run **get-latest-powershell.ps1** to install latest version of PowerShell
+- Run **get-latest-powershell.ps1** to install the latest version of PowerShell
 - Run **install-rsat-tools-and-module.ps1** (Windows 10) to install RSAT Active Directory DS-LDS.Tools
 
 ## Usage
