@@ -53,8 +53,8 @@ e.g. ./remove-user-from-group.ps1 domain-user-name ad-security-group'
 >Known issues: If these are executed and fail because of authentication then you will need to add the following.
 
 ```powershell
-$creds = Get-Credential
-append -Credential $creds to the AD PowerShell command 
+Step 1: Add $creds = Get-Credential
+Step 2: append -Credential $creds to the AD PowerShell command 
 e.g. Remove-ADGroupMember -Identity  "$param2" -Members "$param1" -Server $activedirectoryname -Credential $creds
 ```
 
