@@ -15,6 +15,7 @@ if ($param1 -contains "*") {
 if ( $param1 ) {
     Write-Host "Searching..."
     Get-ADUser -Identity "$param1" -Server $activedirectoryname
-} else {
+}
+else {
     Write-Host -ForegroundColor Green "Usage ./$scriptname domain-user-name"
 }

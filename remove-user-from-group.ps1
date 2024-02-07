@@ -9,7 +9,11 @@ $psv = $PSVersionTable.PSversion
 
 Write-Host -ForegroundColor blue "PS $psv $scriptname Version 1.0"
 
-if ($param1 -contains "*" -or $param2 -contains "*") { $param1 = ""; $param2 = "" }
+if ($param1 -contains "*" -or $param2 -contains "*") { 
+    $param1 = ""
+    $param2 = "" 
+}
+
 if ( $param1 -And $param2 ) {
     Write-Host "Remove user ""$param1"" from security group ""$param2"""
     $yn = Read-Host -Prompt "Press Y to continue or any other key to cancel"
