@@ -19,6 +19,8 @@ Collection of Powershell scripts to manage users of an Active Directory security
 - Powershell Version: **Minimum v6**
 - Requires: **Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0** *(Active Directory Domain Services and Lightweight Directory Services Tools)*
 - Please note that each script must have a variable changed before use and set to the Active Directory domain name. Configure  **$activedirectoryname** variable. This is a mandatory requirement and cannot be skipped
+- Powershell Execution Policy set to Unrestricted
+: `Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser`
 
 #### Script: **who-is.ps1**   
 &emsp;Look up a domain user name  
