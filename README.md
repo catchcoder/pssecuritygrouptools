@@ -51,7 +51,8 @@ e.g. ./remove-user-from-group.ps1 domain-user-name ad-security-group'
 
 ---
 
-### Known issues: 
+### Known issues
+
 If these are executed and fail because of authentication then you will need to add the following.
 
 ```powershell
