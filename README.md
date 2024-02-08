@@ -21,28 +21,32 @@ Collection of Powershell scripts to manage users of an Active Directory security
 - Please note that each script must have a variable changed before use and set to the Active Directory domain name. Configure  **$activedirectoryname** variable. This is a mandatory requirement and cannot be skipped
 - Powershell Execution Policy set to Unrestricted: `Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser`
 
-#### Script: **who-is.ps1**   
+#### Script: **who-is.ps1**
+
 &emsp;Look up a domain user name  
 
 ```powershell
 e.g. ./who-is.ps1 domain-user-name
 ```
 
-#### Script: **list-users-in-group.ps1**  
+#### Script: **list-users-in-group.ps1**
+
 &emsp;List all users that are in an Active Directory security group.  
 
 ```powershell
 e.g. ./list-users-in-group.ps1 'ad-security-group'
 ```
 
-#### Script: **add-user-to-group.ps1**  
+#### Script: **add-user-to-group.ps1**
+
 Add domain user to Active Directory security group.  
 
 ```powershell
 e.g. ./add-user-to-group.ps1 domain-user-name 'ad-security-group'
 ```
 
-#### Script: **remove-user-from-group.ps1**  
+#### Script: **remove-user-from-group.ps1**
+
 &emsp;Remove domain user name from Active Directory security group.  
 
 ```powershell
